@@ -45,7 +45,6 @@ public class StockProfit {
 
         // Initialize variables to track the minimum price and maximum profit
         int buyPrice = prices[0];
-        int sellPrice = 0;
         int maxProfit = 0;
 
         // Iterate through the array to find the minimum price and maximum profit
@@ -55,7 +54,6 @@ public class StockProfit {
 
             // Update the sellPrice and maxProfit if selling at the current price results in a higher profit
             if (prices[i] - buyPrice > maxProfit) {
-                sellPrice = prices[i];
                 maxProfit = prices[i] - buyPrice;
             }
         }
