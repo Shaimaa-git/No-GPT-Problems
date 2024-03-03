@@ -32,20 +32,5 @@ public class FindDuplicateNumber {
         //print the repeated numbers
         System.out.println("Repeated Sticker are: " + findDuplicate(input1));
 
-        int[] input2 = {3, 1, 3, 4, 2};
-        System.out.println("The stickers shared: "+Arrays.toString(input2));
-        System.out.println("Repeated Sticker are: " + findDuplicate(input2));
-
-        int[] input3 = {1, 1};
-        System.out.println("The stickers shared: "+Arrays.toString(input3));
-        System.out.println("Repeated Sticker are: " + findDuplicate(input3));
-
-        int[] input4 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 1};
-        System.out.println("The stickers shared: "+Arrays.toString(input4));
-        System.out.println("Repeated Sticker are: " + findDuplicate(input4));
-
-        int[] input5 = {9, 6, 4, 2, 3, 5, 7, 0, 1, 8, 6};
-        System.out.println("The stickers shared: "+Arrays.toString(input5));
-        System.out.println("Repeated Sticker are: " + findDuplicate(input5));
     }
 }
