@@ -24,13 +24,18 @@ public class FindDuplicateNumber {
     }
 
     public static void main(String[] args) {
-        //test five arrays to find the duplicate numbers
+        //test case 1
         //create the array to add numbers
         int[] input1 = {1, 3, 4, 9, 2};
         //print the array elements
         System.out.println("The stickers shared: "+Arrays.toString(input1));
         //print the repeated numbers
         System.out.println("Repeated Sticker are: " + findDuplicate(input1));
+
+        // Test Case 2
+        int[] input2 = {2, 5, 3, 7, 5, 8};
+        System.out.println("\nThe stickers shared: " + Arrays.toString(input2));
+        System.out.println("Repeated Sticker are: " + findDuplicate(input2));
 
     }
 }
